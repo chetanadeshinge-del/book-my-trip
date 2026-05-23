@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip</title>
+
+    <style>
+        body {
+            background-color: purple;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-decoration: underline;
+        }
+
+        fieldset {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons input {
+            width: auto;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: cornflowerblue;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>BOOK YOUR TRIP</h1>
+
+    <form>
+
+        <fieldset>
+
+            <table>
+
+                <tr>
+                    <td><label><b>NAME</b></label></td>
+                    <td>
+                        <input type="text" placeholder="Enter full name (Surname - Name - Father Name)" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>EMAIL ID</b></label></td>
+                    <td>
+                        <input type="email" placeholder="abc@gmail.com" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>PASSWORD</b></label></td>
+                    <td>
+                        <input type="password" minlength="8" maxlength="12" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>MOBILE NO.</b></label></td>
+                    <td>
+                        <input type="tel" placeholder="Enter with country code" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>NUMBER OF TRAVELLERS</b></label></td>
+                    <td>
+                        <input type="number" min="1" max="10" value="1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>DATE</b></label></td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label><b>DESTINATION</b></label></td>
+                    <td>
+                        <select required>
+                            <option value="Kolhapur">Kolhapur</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Mizoram
+                            
